@@ -1,4 +1,4 @@
-inport os
+import os
 
 
 a = input("请输入产品密钥:")
