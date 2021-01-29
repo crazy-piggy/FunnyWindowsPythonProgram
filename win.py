@@ -8,8 +8,9 @@ while True:
     if os.system("slmgr /ipk " + a) !=0:
         a = input("请重新输入产品密钥:")
     if os.system("slmgr /skms " + b) != 0:
-        b = input("请重新输入kms服务器地址或以管理员身份运行该程序:")
+        b = input("请重新输入可用kms服务器地址或以管理员身份运行该程序:")
     else:
+        os.system("slmgr /upk")
         os.system("slmgr /ipk " + a)
         os.system("slmgr /skms " + b)
         os.system("slmgr /ato")
