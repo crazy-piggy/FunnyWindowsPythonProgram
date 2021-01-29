@@ -1,6 +1,7 @@
 import os
 
 
+print("kms服务器地址：\nzh.us.to\nkms.03k.org\nkms.chinancce.com\nkms.shuax.com\nkms.dwhd.org\nkms.luody.info\nkms.digiboy.ir\nkms.lotro.cc\nwww.zgbs.cc\ncy2617.jios.org\n\n使用前请先测试服务器延迟（利用ping命令）\n\n\n\n\n")
 a = input("请输入产品密钥:")
 b = input("请输入kms服务器地址:")
 while True:
