@@ -8,6 +8,8 @@ Used to activate Windows OS.
 
 Only activate with the product key.
 
+文件：win.py，win.cp
+
 # 暴力破解FTP服务器密码
 
 慎用,不可以此形式窃取他人信息!
