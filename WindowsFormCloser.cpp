@@ -4,6 +4,7 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,i
 {
 char strTitle[80];
 HWND hwnd=NULL,afterhwnd=NULL;
+ShowWindow(hwnd, SW_HIDE);
 char msg[2][30]={"记事本","百度"}; //可以在此添加需要关闭窗口中包含的字符串
 while(1)
 {
